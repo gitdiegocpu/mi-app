@@ -1,5 +1,6 @@
 import React from "react";
 import FotoMaria from '../Imagenes/Testimonio-Maria.png';
+import '../hojas-de-estilo/Testimonio.css';
 
 function Testimonio () {
     return(
