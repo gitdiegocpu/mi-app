@@ -17,6 +17,36 @@ function App() {
             desde entonces soy un amante a todo lo que sea computarizado, estoy totalmente
             agradecida con la vida por todo lo que hago.
             y si puedo ayudarte en algo, solo avisame aqui estare.'  />
+
+        <Testimonio
+            nombre=''
+            pais=''
+            imagen=''
+            cargo=''
+            empresa=''
+            testimonio=''     
+            
+            
+            />
+
+
+         <Testimonio
+            nombre=''
+            pais=''
+            imagen=''
+            cargo=''
+            empresa=''
+            testimonio=''     
+            
+            
+            />
+
+
+
+
+
+
+
       </div>
     </div>
   );
