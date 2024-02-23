@@ -22,16 +22,16 @@
 }
 
 .nombre-testimonio {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .cargo-testimonio {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-top: 15px;
     padding-bottom: 30px;
 }
 
 .texto-testimonio {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     text-align: justify;
 }

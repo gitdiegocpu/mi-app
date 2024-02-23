@@ -7,7 +7,16 @@ function App() {
     <div className="App">
       <div className='contenedor-principal'>
         <h1>Esto es lo que dicen nuestros alumnos sobre freeCodeCamp</h1>
-        <Testimonio />
+        <Testimonio 
+            nombre='Maria Gutierrez'
+            pais='Guatemala'
+            imagen=''
+            cargo='Ingeniera de Software'
+            empresa='Spotify'
+            testimonio='La ingeniria en sistemas es mi pasion, lo encontre en el 6to grado
+            desde entonces soy un amante a todo lo que sea computarizado, estoy totalmente
+            agradecida con la vida por todo lo que hago.
+            y si puedo ayudarte en algo, solo avisame aqui estare.'  />
       </div>
     </div>
   );
