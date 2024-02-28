@@ -1,12 +1,14 @@
 import React from "react";
 import imagenesTestimonio from '../Imagenes/Testimonio-Maria.png'
+
+/*import imagenesTestimonio from '../Imagenes/Testimonio-Angelo.png'*/
 /*import FotoMaria from '../Imagenes/Testimonio-Maria.png';*/
 /*import '../hojas-de-estilo/Testimonio.css'; */
 
 const Testimonio = ({ nombre, pais, imagen, cargo, empresa, testimonio }) => {
    return(
      <div className="testimonio">
-       <img src={imagenesTestimonio} alt="Testimonio" />
+       <img src={imagenesTestimonio} alt={nombre} />
         <h2>{nombre}</h2>
         <h3>{pais}</h3>
         <h4>{imagen}</h4>
@@ -14,8 +16,8 @@ const Testimonio = ({ nombre, pais, imagen, cargo, empresa, testimonio }) => {
         <h6>{empresa}</h6>
         <p>{testimonio}</p>
      </div>
-    )
-}
+    );
+};
    
 
 export default Testimonio;
