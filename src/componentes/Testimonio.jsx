@@ -1,11 +1,31 @@
 import React from "react";
-import imagenesTestimonio from '../Imagenes/Testimonio-Maria.png'
+import '../hojas-de-estilo/Testimonio.css';
+
+function Testimonio(props) {
+    return(
+     <div className="contenedor-testimonio">
+      <img className="imagen-testimonio" src={(`../imagenes/testimonio-${props.imagen}.png`)} alt=""/>
+        <div className="contenedor-texto-testimonio">
+            <p className="nombre-testimonio"> {props.nombre} en {props.pais}</p>
+            <p className="cargo-testimonio"> {props.cargo} en {props.empresa}</p>
+            <p className="texto-testimonio"> {props.testimonio}</p>
+        </div>
+     </div>
+    )
+}
+
+
+export default Testimonio;
+
+
+
+/*import imagenesTestimonio from '../Imagenes/Testimonio-Maria.png'*/
 
 /*import imagenesTestimonio from '../Imagenes/Testimonio-Angelo.png'*/
 /*import FotoMaria from '../Imagenes/Testimonio-Maria.png';*/
 /*import '../hojas-de-estilo/Testimonio.css'; */
 
-const Testimonio = ({ nombre, pais, imagen, cargo, empresa, testimonio }) => {
+/*const Testimonio = ({ nombre, pais, imagen, cargo, empresa, testimonio }) => {
    return(
      <div className="testimonio">
        <img src={imagenesTestimonio} alt={nombre} />
@@ -17,7 +37,5 @@ const Testimonio = ({ nombre, pais, imagen, cargo, empresa, testimonio }) => {
         <p>{testimonio}</p>
      </div>
     );
-};
+};*/
    
-
-export default Testimonio;
